@@ -1,5 +1,5 @@
-import weatherdash from '/assets/weatherdash.jpg'
-import socialnetworkapi from '/assets/socialnetworkapi.jpg'
+import weatherdash from './assets/weatherdash.jpg'
+import socialnetworkapi from './assets/socialnetworkapi.jpg'
 
 
 

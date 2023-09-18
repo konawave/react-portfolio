@@ -63,9 +63,9 @@ export default function Contact() {
     return (
       <div className="container pt-4">
         <div className="contactFormSection">
-          <h2 className="contactTitle">Let's Connect!</h2>
+          <h2 className="contactTitle">Want to reach out?</h2>
           <div className="contactFormContainer">
-          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfbX3RgO29vdyKMFZJrnQtyxgdjElrwC9ANw5jhgvejUdoEYg/viewform?embedded=true" className="contactForm">Loading…</iframe>
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf00RFUXmxxtSj-ZHy3WLVnKcwHugx7ZMutNg3NT8zZH4JvFQ/viewform?usp=sf_link" className="contactForm">Loading…</iframe>
           </div>
           {/* <form onSubmit={handleFormSubmit} className="contactFormInputs">
             <div className="form-group formInput">

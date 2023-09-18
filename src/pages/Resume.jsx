@@ -1,4 +1,4 @@
-import resumefile from '../assets/images/nickjeffsresume.pdf'
+import resumefile from '../assets/nickjeffsresume.pdf'
 
 export default function Resume() {
   return (
@@ -13,13 +13,10 @@ export default function Resume() {
             <ul>
                 <li>HTML</li>
                 <li>CSS</li>
-                <li>JavaScript / jQuery</li>
-                <li>SQL / MySQL</li>
-                <li>NoSQL / MongoDB</li>
+                <li>JavaScript/jQuery</li>
+                <li>MySQL/NoSQL/GraphQL</li>
                 <li>Node.js / Express</li>
                 <li>React</li>
-                <li>Material UL</li>
-                <li>Bootstrap / React Bootstrap</li>
             </ul>
         </div>
      </div>
