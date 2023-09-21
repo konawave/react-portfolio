@@ -2,7 +2,7 @@
 
 ## Description 
 
-This is my portfolio for the work and skills I've developed thus far in my coding career.
+This is my portfolio for the work and skills I've developed thus far in my coding career. It incorporates React js, Node js, Express js,  and Bootstrap. 
 
 Link to deployed application: [https://columbia-tech-blog-challenge-e13b3956448d.herokuapp.com/](https://konawave.github.io/react-portfolio/)
 
