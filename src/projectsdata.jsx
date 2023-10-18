@@ -1,7 +1,6 @@
 import weatherdash from './assets/weatherdash.jpg'
 import socialnetworkapi from './assets/socialnetworkapi.jpg'
-import comingsoon from './assets/comingsoon.jpg'
-
+import comingsoon from './assets/comingsoon.jpeg'
 
 
 export const projects = [
@@ -23,8 +22,7 @@ export const projects = [
     title: "Next Project",
     image: comingsoon,
     description: "My next project is currently in development and will be published on GitHub when it's ready!", 
-    deployedlink: "N/A",
-    githublink: "N/A",
+    deployedlink: "https://github.com/konawave",
+    githublink: "https://github.com/konawave",
   }
-  
 ];
