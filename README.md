@@ -4,7 +4,7 @@
 
 This is my portfolio for the work and skills I've developed thus far in my coding career. It incorporates React js, Node js, Express js,  and Bootstrap. 
 
-Link to deployed application: [https://columbia-tech-blog-challenge-e13b3956448d.herokuapp.com/](https://konawave.github.io/react-portfolio/)
+Link to deployed application: [https://konawave.github.io/react-portfolio/](https://konawave.github.io/react-portfolio/)
 
 
 ## Table of Contents

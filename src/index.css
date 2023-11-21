@@ -1,16 +1,19 @@
+/* * {
+  border: 2px black solid;
+} */
+
 :root {
     /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
     font-family: 'Nunito', Arial, sans-serif;
     line-height: 1.5;
     font-weight: 400;
-  
     --pink: #D7AAAD;
     --opacity-pink: #d7aaada9;
     --dark-navy: #061824;
     --opacity-dark-navy: #061824c5;
     --off-white: #F7FAFE;
     --light-gray: #d1d3d6;
-  
+    /* overflow: auto; */
   }
   
   /* all images downloaded from unsplash.com*/
@@ -23,6 +26,7 @@
     background-image: url("./assets/background1.jpg");
     background-size: auto 100%;
     color: var(--dark-navy);
+    /* overflow: auto; */
   }
   
   /* About me section css */
@@ -206,17 +210,6 @@
     justify-content: center;
   }
   
-  /* .projectCardDetails {
-    display:none;
-  }
-  
-  .projectCard:hover .projectCardDetails{
-    opacity: 75%;
-    border: 0.5px solid var(--dark-navy);
-    display: block;
-    transition: display 0.5s ease;
-  } */
-  
   .lineBetween {
     width: 75%;
     align-self: center;
@@ -258,10 +251,18 @@
     margin: auto;
     border: 0.5px solid transparent;
     box-shadow: 5px 5px 5px var(--opacity-dark-navy);
+    overflow: auto;
   }
-  
+
+  .containerpt-4 {
+    overflow: auto;
+    margin-bottom: 60px;
+  }
+
   .resumeLinkSection{
     margin: 5%;
+    display: flex;
+    justify-content: center;
   }
   
   .resumeLink {
@@ -273,6 +274,7 @@
     border-radius: 5%;
     border: 0.5px solid var(--dark-navy);
     box-shadow: 5px 5px 5px var(--opacity-dark-navy);
+    
   }
   
   .resumeLink:hover {
@@ -282,14 +284,53 @@
   
   .skillsSection {
     margin-top: 2%;
-    margin-left: 5%;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+
+    @media (min-width: 768px) {
+          display: flex;
+          flex-direction: row;
+        
+    }
   }
-  
-  /* @media (max-width: 768px) {
+
+  div.resumeLink {
+    align-self: center;
+  }
+
+  div.card {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+    height: 300px;
+  }
+
+  div.card-body {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .JSCard {
+    height: 100px;
+    width: auto;
+  }
+
+  h4 {
+  text-align: center;
+  }
+  @media (max-width: 768px) {
     .contactForm {
         display: flex;
         width: 400px;
         height: 500px;
         margin: auto;
       }
-  } */
+  }
+
+  
