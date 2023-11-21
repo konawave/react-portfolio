@@ -1,4 +1,6 @@
 import resumefile from '../assets/nickjeffsresume.pdf'
+import Card from 'react-bootstrap/Card';
+import JSBadge from '../assets/JSBadge.png';
 
 export default function Resume() {
   return (
@@ -10,16 +12,18 @@ export default function Resume() {
 
         <div className='skillsSection'>
           <h4>SKILLS:</h4>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript/jQuery</li>
-                <li>MySQL/NoSQL/GraphQL</li>
-                <li>Node.js / Express</li>
-                <li>React</li>
-            </ul>
+            <Card style={{ width: '18rem' }}>
+              <Card.Img class="JSCard" variant="top" src={JSBadge} />
+              <Card.Body>
+                <Card.Title>JavaScript</Card.Title>
+                <Card.Text>
+                Some quick example text to build on the card title and make up the
+                bulk of the card's content.
+                </Card.Text>
+              </Card.Body>
+            </Card>
         </div>
-     </div>
+      </div>
     </div>
   );
 }
