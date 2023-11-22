@@ -1,6 +1,6 @@
-/* * {
+* {
   border: 2px black solid;
-} */
+}
 
 :root {
     /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
@@ -196,6 +196,7 @@
     width: 20rem;
     box-shadow: 5px 5px 5px var(--opacity-dark-navy);
     background-color: var(--off-white);
+    overflow: auto;
   }
   
   .projectCard:hover {
