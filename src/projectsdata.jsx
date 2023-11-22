@@ -5,7 +5,7 @@ import comingsoon from './assets/comingsoon.jpeg'
 
 export const projects = [
   {
-    title: "Weather Dashboard *CURRENTLY REFACTORING*",
+    title: "Weather Dashboard",
     image: weatherdash,
     description: "Web App that retrieves and displays weather forecast using Open Weather API. This web application runs in the browser and features dynamically updated HTML and CSS powered by jQuery.",
     deployedlink: "https://konawave.github.io/class-weatherDash/",
