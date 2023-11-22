@@ -196,6 +196,7 @@
     width: 20rem;
     box-shadow: 5px 5px 5px var(--opacity-dark-navy);
     background-color: var(--off-white);
+    overflow: auto;
   }
   
   .projectCard:hover {
@@ -217,6 +218,8 @@
   
   .projectCardLink {
     text-decoration: none;
+    justify-content: center;
+    display: flex;
   }
   
   .projectCardFooter {
@@ -300,15 +303,8 @@
   div.resumeLink {
     align-self: center;
   }
-
-  div.card {
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    margin: 5px;
-    width: 200px;
-    height: 300px;
-  }
+ /* This is where the styling issue lies */
+  
 
   div.card-body {
     display: flex;
@@ -331,6 +327,15 @@
         height: 500px;
         margin: auto;
       }
+  }
+
+  .skillsSection .card {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+    height: 300px;
   }
 
   
